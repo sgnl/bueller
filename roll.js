@@ -1,11 +1,11 @@
-var roster = require('./students/co_4').students;
-
 process.stdin.setEncoding('utf8');
+
+var cohort = process.argv[2] ? process.argv[2] : 'co_4';
+var roster = require('./students/' + cohort ).students;
 
 process.stdin.on('readable', function() {
   var chunk = process.stdin.read();
   if (chunk !== null) {
-    // console.log(chunk.toString() === 'a');
     var result = roll(roster);
     process.stdout.write(result + "\n");
   }

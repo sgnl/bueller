@@ -1,5 +1,7 @@
 var roster = require('./students/co_4.js').students;
 
+console.log(process.argv);
+
 process.stdin.setEncoding('utf8');
 
 process.stdin.on('readable', function() {
