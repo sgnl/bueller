@@ -1,8 +1,8 @@
 process.stdin.setEncoding('utf8');
 
-var cohort = process.argv[2] ? process.argv[2] : 'co_4';
+var cohortOpts = process.argv[2] ? process.argv[2] : 'co_4';
 var list = require('./students/' + cohort + '.json');
-var students = list.students;
+var students = list.students; 
 
 process.stdin.on('readable', function() {
   var chunk = process.stdin.read();
