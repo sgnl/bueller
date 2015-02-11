@@ -10,7 +10,7 @@ process.stdin.on('readable', function() {
     var result = roll(roster);
     process.stdout.write(result + "\n");
   }
-  return;
+  return; 
 });
 
 function roll(roster) {

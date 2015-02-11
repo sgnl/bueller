@@ -1,0 +1,29 @@
+{
+  "name": "bueller",
+  "version": "0.0.1",
+  "description": "call on students, creating groupings, and whatever else, randomly.",
+  "main": "index.js",
+  "dependencies": {
+    "yargs": "^2.3.0"
+  },
+  "preferGlobal": true,
+  "directories": {
+    "bin": "./bin"
+  },
+  "devDependencies": {
+    "yargs": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgnl/beuller.git"
+  },
+  "author": "Ray Farias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgnl/beuller/issues"
+  },
+  "homepage": "https://github.com/sgnl/beuller"
+}
