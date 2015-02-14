@@ -4,15 +4,11 @@
   "description": "call on students, creating groupings, and whatever else, randomly.",
   "main": "index.js",
   "dependencies": {
-    "chalk": "^0.5.1",
     "yargs": "^2.3.0"
   },
   "preferGlobal": true,
   "directories": {
     "bin": "./bin"
-  },
-  "devDependencies": {
-    "yargs": "^2.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
