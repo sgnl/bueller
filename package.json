@@ -4,6 +4,7 @@
   "description": "call on students, creating groupings, and whatever else, randomly.",
   "main": "index.js",
   "dependencies": {
+    "keypress": "^0.2.1",
     "yargs": "^2.3.0"
   },
   "preferGlobal": true,
