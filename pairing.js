@@ -1,4 +1,4 @@
-var roster = require('./students/co_4.js').students;
+var roster = require('./students/co_6.js').students;
 
 console.log(process.argv);
 
