@@ -1,7 +1,7 @@
 {
   "name": "bueller",
   "version": "0.0.1",
-  "description": "call on students, creating groupings, and whatever else, randomly.",
+  "description": "Call on students, creating groupings, and whatever else, randomly.",
   "main": "index.js",
   "dependencies": {
     "keypress": "^0.2.1",
