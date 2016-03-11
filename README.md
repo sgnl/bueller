@@ -1,3 +1,7 @@
 # Bueller
 
-choose students at random, form groupings, and ...more?
+Choose students at random, form groupings, and ...more?
+
+## Getting Started
+```
+bueller
