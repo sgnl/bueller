@@ -4,4 +4,5 @@ Choose students at random, form groupings, and ...more?
 
 ## Getting Started
 ```
-bueller
+bueller -c[cohort number]
+```
