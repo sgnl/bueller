@@ -1,9 +1,10 @@
 {
   "name": "bueller",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Call on students, creating groupings, and whatever else, randomly.",
   "main": "index.js",
   "dependencies": {
+    "cli-spinner": "^0.2.5",
     "keypress": "^0.2.1",
     "yargs": "^2.3.0"
   },
@@ -16,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sgnl/beuller.git"
+    "url": "https://github.com/sgnl/bueller.git"
   },
   "author": "Ray Farias",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sgnl/beuller/issues"
+    "url": "https://github.com/sgnl/bueller/issues"
   },
-  "homepage": "https://github.com/sgnl/beuller"
+  "homepage": "https://github.com/sgnl/bueller"
 }
