@@ -20,7 +20,9 @@ $ bueller -c 4
 
 ## Contributers:
   *[Ray Faris](https://github.com/sgnl/)
+  
   *[Joe Carlson](http://www.callmejoe.net/)
+  
   *[Owen Yang](https://github.com/owen28299/)
 
 ##License
