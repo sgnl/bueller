@@ -1,6 +1,6 @@
 {
   "name": "bueller",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Call on students, creating groupings, and whatever else, randomly.",
   "main": "index.js",
   "dependencies": {

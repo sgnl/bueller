@@ -3,16 +3,25 @@ Choose students at random, form groupings, and ...more?
 
 Used internally by Dev League but can be adapted for any classroom.
 
-## Getting Started
+## Getting started with Dev League cohort names
 1. Install via `npm` with the command `$ npm install -g bueller`
-3. run with the command `Q$ bueller -c [COHORT_NUMBER]`
-4. Press the `enter` key to get a random student's name.
+1. Run with the command `$ bueller -c [COHORT_NUMBER]`
+1. Press the `enter` key to get a random student's name.
 
 Example of running bueller with cohort 4 names:
 
   ```
   $ bueller -c 4
   ```
+
+By default, bueller looks for a file located in the `cohorts/` directory and a `.json`
+file. e.g. `$ bueller -c 4` will look for a file at this path: `cohorts/4.json`
+
+## Getting started with your own list of students
+1. Install via `npm` with the command `$ npm install -g bueller`
+2. use the `-f` flag to pass a path to bueller, e.g. `$ bueller -f ../../path/to/file/of/students.json`
+
+File **must** be in json format. Look in the `cohorts` directory of this repository for the internal format of the json file.
 
 ## Features
 Bueller started out as fully `Math.random` then Owen implemented mean reverting algorithm
