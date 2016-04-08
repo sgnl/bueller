@@ -1,28 +1,51 @@
 # Bueller
 Choose students at random, form groupings, and ...more?
 
-## Getting Started
-1. Fork and clone this project onto your local computer. Navigate into this repository.
-2. Install with the command: `$ npm install -g ./`
-3. run `bueller -c [COHORT_NUMBER]`
-4. Press the `enter` key to get a random student's name from the cohort specified above.
+Used internally by Dev League but can be adapted for any classroom.
 
-example of running bueller with cohort 4 names:
-```
-$ bueller -c 4
-```
+## Getting Started
+1. Install via `npm` with the command `$ npm install -g bueller`
+3. run with the command `Q$ bueller -c [COHORT_NUMBER]`
+4. Press the `enter` key to get a random student's name.
+
+Example of running bueller with cohort 4 names:
+
+  ```
+  $ bueller -c 4
+  ```
+
+## Features
+Bueller started out as fully `Math.random` then Owen implemented mean reverting algorithm
+so that students would get chosen at an equal rate.
+
+You can configure the degree of variance, by default the value is `2` which means that
+there may be a slight chance of seeing a student's more than once in a set.
+
+A degree of:
+  - `0` each student should be called before repeating a name
+  - `10` totally random
+
+To change the degree of variance, use the `-d` flag:
+
+  ```
+  $ bueller -c 10 -d 7
+  ```
+
+
+## [See it in action by Owen Yang](http://owen28299.github.io/meanRevertingBeuller/)
+
 ## Contributing
 1. Fork it!
-2. Create your feature branch: ```git checkout -b my-new-feature```
-3. Commit your changes: ```git commit -am 'Add some feature'```
-4. Push to the branch: ````git push origin my-new-feature````
-5. Submit a pull request :D
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request from your feature branch :D
 
 ## Contributers:
   *[Ray Faris](https://github.com/sgnl/)
-  
+
   *[Joe Carlson](http://www.callmejoe.net/)
-  
+
   *[Owen Yang](https://github.com/owen28299/)
 
 ##License
