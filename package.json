@@ -1,6 +1,6 @@
 {
   "name": "bueller",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Call on students, creating groupings, and whatever else, randomly.",
   "main": "index.js",
   "dependencies": {
@@ -24,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/sgnl/bueller/issues"
   },
-  "homepage": "https://github.com/sgnl/bueller"
+  "homepage": "https://github.com/sgnl/bueller",
+  "contributors": [
+    { "name" : "Joe Carlson"
+    , "url" : "http://www.callmejoe.net/"
+    },
+    { "name" : "Owen Yang"
+    , "url" : "https://github.com/owen28299/"
+    }
+  ]
 }
