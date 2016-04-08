@@ -1,7 +1,5 @@
 # Bueller
-Choose students at random, form groupings, and ...more?
-
-Used internally by Dev League but can be adapted for any classroom.
+Choose students at a randomly fair rate.
 
 ## Getting started with Dev League cohort names
 1. Install via `npm` with the command `$ npm install -g bueller`
